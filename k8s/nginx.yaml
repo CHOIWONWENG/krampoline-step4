@@ -54,11 +54,11 @@ metadata:
     app.kubernetes.io/managed-by: kargocd
   name: nginx
 spec:
-  rules:ㅇ
+  rules:
     - http:
         paths:
           - backend:
               serviceName: nginx-service
               servicePort: 80
             # 여러분의 app path 를 넣어주세요.
-            path: /kbf2b8e6b894da(/|$)(.*)
+            path: /k22e688e82772a(/|$)(.*)
